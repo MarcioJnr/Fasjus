@@ -1,5 +1,5 @@
 <h1 align="center">
-FASJUS Empresa Júnior
+<img src="./logo.png"/>
 </h1>
 
 <p align="center"><b>⚖ Wordpress theme developed for FasJus, Junior Law Firm at Faculdade Ari de Sá</b>
