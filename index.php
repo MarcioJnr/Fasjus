@@ -1,14 +1,14 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="<?php bloginfo('charset'); ?>">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php bloginfo('name'); ?></title>
+<?php get_header(); ?>
 
-    <?php get_header(); ?>
-</head>
-<body>
-    
-</body>
-</html>
+<main>
+    <!-- teste para Boostrap e JQuery, pode apagar kkkk -->
+    <button id="b" type="button" class="btn btn-primary">Clique em mim para testar o JQuery</button>
+    <script>
+        $('#b').click(function (e) { 
+            e.preventDefault();
+            console.log('JQuery funcionou');
+        });
+    </script>
+</main>
+
+<?php get_footer(); ?>
